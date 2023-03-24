@@ -2,9 +2,11 @@ html,
 body {
   scroll-behavior: smooth;
 }
+
 body {
   font-family: "Roboto", sans-serif;
 }
+
 .nav {
   display: flex;
   height: 50px;
@@ -20,6 +22,7 @@ body {
   margin: 0 auto;
   justify-content: space-between;
 }
+
 .nav .container .menu {
   display: flex;
   flex-direction: row;
@@ -27,6 +30,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
+
 .nav li a {
   text-align: center;
   padding: 15px;
@@ -35,6 +39,7 @@ body {
   color: #ffffff;
   text-shadow: #000000 0.1em 0.1em 0.2em;
 }
+
 .nav .firm {
   justify-content: flex-start;
   text-decoration: none;
@@ -43,6 +48,7 @@ body {
   font-weight: bold;
   color: #ffffff;
 }
+
 .disabled {
   cursor: not-allowed;
 }
@@ -54,11 +60,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .header .container {
   width: 960px;
   height: 100%;
   padding: 10px 10px;
 }
+
 .header .heading {
   position: absolute;
   font-size: 40px;
@@ -68,6 +76,7 @@ body {
   margin-top: 10%;
   margin-right: 40%;
 }
+
 .header p {
   position: absolute;
   font-size: 32px;
@@ -77,6 +86,7 @@ body {
   padding: 10px 10px;
   margin-top: 20%;
 }
+
 .header .offer-btn {
   position: absolute;
   font-size: 16px;
@@ -90,6 +100,7 @@ body {
   border: 3px solid #ffff;
   transition: 1s;
 }
+
 .header .offer-btn:hover {
   background-color: #ffffff;
   color: #000000;
@@ -102,17 +113,20 @@ h2 {
   padding: 10px 10px;
   margin-left: 25%;
 }
+
 .specjalist1,
 .specjalist2 {
   background-color: #bab6b6;
   padding: 10px 10px;
 }
+
 .specjalist1 .container {
   display: flex;
   width: 960px;
   margin: 0 auto;
   padding: 10px 10px;
 }
+
 .container h3 {
   font-size: 20px;
   font-weight: bold;
@@ -176,6 +190,7 @@ h2 {
   background-color: #253332;
   transition: 0.5;
 }
+
 .box {
   position: relative;
   display: flex;
@@ -187,9 +202,11 @@ h2 {
   box-shadow: #514a4a 0.5em 0.5em 0.5em;
   background-color: #798f8b;
 }
+
 .box:hover {
   transform: scale(1.05);
 }
+
 .circle {
   position: absolute;
   top: -10px;
@@ -199,6 +216,7 @@ h2 {
   background-color: #ff0000;
   border-radius: 50%;
 }
+
 .box p {
   padding: 0 50px;
   text-align: center;
@@ -221,26 +239,24 @@ h2 {
   height: 50px;
   background-color: #808080;
   text-align: center;
-  line-height: 50px;
   margin: 0 auto;
 }
+
 .footer .container {
   display: flex;
   width: 960px;
-  height: 100%;
   align-items: center;
   justify-content: flex-start;
-  padding: 10px 10px;
+
 }
 
 .footer .container p {
   font-size: 20px;
   color: #ffff;
-  margin-bottom: 20px;
 }
+
 .container .icon {
   margin-left: 400px;
   font-size: 20px;
   color: #ffff;
-  margin-bottom: 20px;
 }
