@@ -114,12 +114,6 @@ h2 {
   margin-left: 25%;
 }
 
-.specjalist1,
-.specjalist2 {
-  background-color: #bab6b6;
-  padding: 10px 10px;
-}
-
 .specjalist1 .container {
   display: flex;
   width: 960px;
