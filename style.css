@@ -35,7 +35,7 @@ body {
   text-align: center;
   padding: 15px;
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px;
   color: #ffffff;
   text-shadow: #000000 0.1em 0.1em 0.2em;
 }
@@ -44,7 +44,7 @@ body {
   justify-content: flex-start;
   text-decoration: none;
   text-shadow: #000000 0.1em 0.1em 0.2em;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -69,7 +69,7 @@ body {
 
 .header .heading {
   position: absolute;
-  font-size: 40px;
+  font-size: 36px;
   text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
   color: #ffff;
   padding: 10px 10px;
@@ -79,7 +79,7 @@ body {
 
 .header p {
   position: absolute;
-  font-size: 32px;
+  font-size: 18px;
   font-weight: bold;
   text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
   color: #ffff;
@@ -107,7 +107,7 @@ body {
 }
 
 h2 {
-  font-size: 25px;
+  font-size: 36px;
   font-weight: bold;
   text-shadow: #514a4a 0.1em 0.1em 0.2em;
   padding: 10px 10px;
@@ -128,7 +128,7 @@ h2 {
 }
 
 .container h3 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   margin: 10px auto;
 }
@@ -180,6 +180,17 @@ h2 {
   text-shadow: #514a4a 0.1em 0.1em 0.2em;
 }
 
+.baner {
+  height: 100px;
+  color: #798f8b;
+  padding-top: 100px;
+  padding-left: 400px;
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+  background-color: #253332;
+}
+
 .containerU {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -222,17 +233,6 @@ h2 {
   text-align: center;
 }
 
-.baner {
-  height: 100px;
-  color: #798f8b;
-  padding-top: 100px;
-  padding-left: 400px;
-  font-size: 30px;
-  font-weight: bold;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
-  background-color: #253332;
-}
-
 .footer {
   display: flex;
   width: 100%;
@@ -251,7 +251,7 @@ h2 {
 }
 
 .footer .container p {
-  font-size: 20px;
+  font-size: 18px;
   color: #ffff;
 }
 
