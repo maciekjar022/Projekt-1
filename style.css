@@ -8,44 +8,44 @@ body {
 }
 
 .nav {
+
   display: flex;
+  justify-content: space-around;
   height: 50px;
-  padding: 10px 10px;
   background-color: #808080;
   text-align: center;
   line-height: 50px;
 }
 
-.container {
-  display: flex;
+.nav .container {
   width: 960px;
-  margin: 0 auto;
+  display: flex;
+  gap: 550px;
   justify-content: space-between;
 }
 
 .nav .container .menu {
+  width: 200px;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   list-style: none;
-  justify-content: flex-end;
   align-items: center;
 }
 
 .nav li a {
   text-align: center;
-  padding: 15px;
+
   text-decoration: none;
   font-size: 18px;
   color: #ffffff;
-  text-shadow: #000000 0.1em 0.1em 0.2em;
 }
 
 .nav .firm {
-  justify-content: flex-start;
   text-decoration: none;
-  text-shadow: #000000 0.1em 0.1em 0.2em;
+  text-align: start;
+  width: 200px;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -54,48 +54,58 @@ body {
 }
 
 .header {
-  position: relative;
-  height: 100vh;
-  background-image: url("airsoft-4498480_1920.jpg");
+
+  height: calc(100vh - 70px);
+  background-image: url("airsoft-4498480_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
+}
+
+.header .shadow {
+
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .header .container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
   width: 960px;
   height: 100%;
-  padding: 10px 10px;
+  margin: 0 auto
 }
 
 .header .heading {
-  position: absolute;
+
+  max-width: 580px;
   font-size: 36px;
-  text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
   color: #ffff;
-  padding: 10px 10px;
-  margin-top: 10%;
-  margin-right: 40%;
+  margin-top: 20px;
+
 }
 
 .header p {
-  position: absolute;
+
+  max-width: 275px;
   font-size: 18px;
-  font-weight: bold;
-  text-shadow: #d1c5c5 0.1em 0.1em 0.2em;
+  font-weight: 700;
   color: #ffff;
-  padding: 10px 10px;
-  margin-top: 20%;
+
 }
 
 .header .offer-btn {
-  position: absolute;
+
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   color: #ffff;
-  padding: 10px 40px;
-  margin-top: 30%;
-  margin-left: 10px;
+  width: 165px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
   letter-spacing: 2px;
   border: 3px solid #ffff;
   transition: 1s;
@@ -106,59 +116,78 @@ body {
   color: #000000;
 }
 
-h2 {
-  font-size: 36px;
-  font-weight: bold;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
-  padding: 10px 10px;
-  margin-left: 25%;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+
+.main .specjalist1 {
+
+  display: flex;
+  flex-direction: column;
+
+
 }
 
 .specjalist1 .container {
-  display: flex;
   width: 960px;
+  display: flex;
   margin: 0 auto;
-  padding: 10px 10px;
+
 }
 
-.container h3 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px auto;
+.specjalist1 h2 {
+  margin: 0 auto;
+  width: 960px;
+  height: 80px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 80px;
 }
+
+
 
 .container .items1:nth-child(1) {
+  display: flex;
   width: 250px;
   height: 250px;
-  margin-left: 100px;
-  padding: 10px 10px;
+  left: 95px;
   border-radius: 50%;
   aspect-ratio: 1/1;
   background-image: url("military-1442907_640a.jpg");
 }
 
 .container .items1:nth-child(2) {
-  display: block;
-  width: 700px;
+  left: 200px;
+  font-size: 18px;
+  width: 860px;
+  height: 200px;
   margin-left: 100px;
-  margin-right: 100px;
-  padding: 10px 10px;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+  margin-top: 40px;
+
 }
 
+.container .items1 h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+
 .specjalist2 .container {
-  display: flex;
   width: 960px;
+  display: flex;
+  margin: 0 auto;
   flex-direction: row-reverse;
-  margin: 20px auto;
-  padding: 10px 10px;
+
 }
 
 .container .items2:nth-child(1) {
   width: 250px;
   height: 250px;
-  margin-right: 100px;
-  padding: 10px 10px;
   border-radius: 50%;
   aspect-ratio: 1/1;
   background-image: url("soldier-4771917_640a.jpg");
@@ -167,22 +196,34 @@ h2 {
 .container .items2:nth-child(2) {
   display: block;
   width: 700px;
+  height: 200px;
   text-align: right;
-  margin-left: 100px;
+  font-size: 18px;
   margin-right: 100px;
-  padding: 10px 10px;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}
+
+.container .items2 h3 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.offers {
+  width: 100%;
+  background-color: #253332;
 }
 
 .baner {
-  height: 100px;
-  color: #798f8b;
-  padding-top: 100px;
-  padding-left: 400px;
+  margin: 0 auto;
+  width: 960px;
+  height: 80px;
   font-size: 36px;
-  font-weight: bold;
-  text-shadow: #514a4a 0.1em 0.1em 0.2em;
-  background-color: #253332;
+  font-weight: 700;
+  line-height: 80px;
+  color: #798f8b;
+
 }
 
 .containerU {
@@ -229,6 +270,7 @@ h2 {
 
 .footer {
   display: flex;
+  justify-content: center;
   width: 100%;
   height: 50px;
   background-color: #808080;
@@ -240,7 +282,7 @@ h2 {
   display: flex;
   width: 960px;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
 
 }
 
@@ -250,7 +292,6 @@ h2 {
 }
 
 .container .icon {
-  margin-left: 400px;
-  font-size: 20px;
+  font-size: 30px;
   color: #ffff;
 }
