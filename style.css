@@ -8,7 +8,6 @@ body {
 }
 
 .nav {
-
   display: flex;
   justify-content: space-around;
   height: 50px;
@@ -18,15 +17,15 @@ body {
 }
 
 .nav .container {
-  width: 960px;
   display: flex;
+  width: 960px;
   gap: 550px;
   justify-content: space-between;
 }
 
 .nav .container .menu {
-  width: 200px;
   display: flex;
+  width: 200px;
   justify-content: space-between;
   list-style: none;
   align-items: center;
@@ -34,7 +33,6 @@ body {
 
 .nav li a {
   text-align: center;
-
   text-decoration: none;
   font-size: 18px;
   color: #ffffff;
@@ -54,19 +52,15 @@ body {
 }
 
 .header {
-
   height: calc(100vh - 70px);
   background-image: url("airsoft-4498480_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .header .shadow {
-
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
-
 }
 
 .header .container {
@@ -79,25 +73,20 @@ body {
 }
 
 .header .heading {
-
   max-width: 580px;
   font-size: 36px;
   color: #ffff;
   margin-top: 20px;
-
 }
 
 .header p {
-
   max-width: 275px;
   font-size: 18px;
   font-weight: 700;
   color: #ffff;
-
 }
 
 .header .offer-btn {
-
   font-size: 16px;
   font-weight: 700;
   text-decoration: none;
@@ -124,32 +113,25 @@ body {
   justify-content: center;
 }
 
-
 .main .specjalist1 {
-
   display: flex;
   flex-direction: column;
-
-
 }
 
 .specjalist1 .container {
   width: 960px;
   display: flex;
   margin: 0 auto;
-
 }
 
 .specjalist1 h2 {
   margin: 0 auto;
   width: 960px;
-  height: 80px;
+  height: 100px;
   font-size: 36px;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 100px;
 }
-
-
 
 .container .items1:nth-child(1) {
   display: flex;
@@ -164,9 +146,8 @@ body {
 .container .items1:nth-child(2) {
   left: 200px;
   font-size: 18px;
-  width: 860px;
   height: 200px;
-  margin-left: 100px;
+  margin-left: 60px;
   margin-top: 40px;
 
 }
@@ -176,13 +157,11 @@ body {
   margin-bottom: 20px;
 }
 
-
 .specjalist2 .container {
   width: 960px;
   display: flex;
   margin: 0 auto;
   flex-direction: row-reverse;
-
 }
 
 .container .items2:nth-child(1) {
@@ -195,14 +174,12 @@ body {
 
 .container .items2:nth-child(2) {
   display: block;
-  width: 700px;
   height: 200px;
   text-align: right;
   font-size: 18px;
-  margin-right: 100px;
+  margin-right: 60px;
   margin-top: 40px;
   margin-bottom: 40px;
-
 }
 
 .container .items2 h3 {
@@ -218,12 +195,11 @@ body {
 .baner {
   margin: 0 auto;
   width: 960px;
-  height: 80px;
+  height: 100px;
   font-size: 36px;
   font-weight: 700;
-  line-height: 80px;
+  line-height: 110px;
   color: #798f8b;
-
 }
 
 .containerU {
@@ -234,7 +210,6 @@ body {
   padding-bottom: 50px;
   justify-content: center;
   background-color: #253332;
-  transition: 0.5;
 }
 
 .box {
@@ -242,15 +217,19 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width: 200px;
   height: 200px;
+  font-size: 24px;
   text-shadow: #514a4a 0.1em 0.1em 0.2em;
   box-shadow: #514a4a 0.5em 0.5em 0.5em;
   background-color: #798f8b;
+  transition: 0.5s;
 }
 
 .box:hover {
   transform: scale(1.05);
+
 }
 
 .circle {
@@ -263,9 +242,19 @@ body {
   border-radius: 50%;
 }
 
-.box p {
+.box+p {
   padding: 0 50px;
   text-align: center;
+  font-size: 24px;
+}
+
+.box span {
+  display: block;
+  font-size: 18px;
+}
+
+.box p:nth-child(2) {
+  font-size: 18px;
 }
 
 .footer {
@@ -283,7 +272,6 @@ body {
   width: 960px;
   align-items: center;
   justify-content: space-between;
-
 }
 
 .footer .container p {
@@ -291,7 +279,8 @@ body {
   color: #ffff;
 }
 
-.container .icon {
+.container .icon a {
   font-size: 30px;
   color: #ffff;
+  margin: 10px;
 }
